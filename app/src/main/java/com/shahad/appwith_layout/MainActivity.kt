@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             else -> 0.20
         }
 
-        var vat = vatPercentage * cost
+        val vat = vatPercentage * cost
         var total = cost + vat
 
 
